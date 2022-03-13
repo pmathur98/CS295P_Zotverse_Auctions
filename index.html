@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+        <title>Zotverse: Auction Platform</title>
+        <head>
+
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+
+        </head>
+        <body>
+            <!-- /******* Navigation Section ********/ -->
+            <nav id="top-nav" >
+                <div class="nav-logo">
+                  <i class="fa-solid fa-truck-fast"></i>
+                  Zotverse
+                </div>
+                <div class="nav-options">
+                    <ul>
+                      <li>Buy</li>
+                      <li>Sell</li>
+                </div>
+                <div class="nav-signin">
+                    <button class="clickable-btn-sign-in">Sign In</button>
+                </div>
+                <div class="nav-signup">
+                    <button class="clickable-btn-sign-up">Sign Up</button>
+                </div>
+            </nav>
+            <!-- /******* Search & Filter Section Right Under Nav ********/ -->
+            <div class="search-filter-nav">
+                <form class="search-container" style="flex: 1;">
+                    <input type="text" id="search-bar" placeholder="Search Products..">
+                    <div class="search-icon-div"><i class="fas fa-search"></i></div>
+                </form>
+            </div>
+
+
+        <div id="main-platform">
+          <div class="leftside-products-container">
+            <div class="sortforyou-container">
+                <div class="products-list-platform">
+                    <div class="product-section-1 product-custom">
+                        <div class="img-div">
+
+                        </div>
+                        <div class="price-div popup lamp-popup">Floor Lamp - $12.5</div>
+                        <div class="product-address">
+                            <h5 class="addy">
+                              Furniture
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="product-section-2 product-custom">
+                        <div class="img-div">
+
+                        </div>
+                        <div class="price-div popup notebook-popup">Notebooks Set of 5 - $20.00</div>
+                        <div class="product-address">
+                            <h5 class="addy">
+                                Notebooks<br>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <!----------------------------------------->
+        <!------------Sign in Page Pop Up---------->
+        <!----------------------------------------->
+
+          <div class="sign-in-div sign-wrapper">
+            <form class="form-signin">
+              <h2 class="form-signin-heading">SIGN IN</h2>
+
+              <h3 class="custom-input-text">Username</h3>
+              <input type="text" class="form-control custom-input" name="username" placeholder="" required="" autofocus="" />
+              <br>
+              <h3 class="custom-input-text" style="margin-top: 10px;">Password</h3>
+              <input type="password" class="form-control custom-input" name="password" placeholder="" required=""/>
+              <br>
+              <button class="btn btn-lg btn-primary btn-block custom-input-signin" type="submit">SIGN IN</button>
+            </form>
+          </div>
+          <div class="sign-up-div sign-wrapper">
+            <form class="form-signin">
+              <h2 class="form-signin-heading">SIGN UP</h2>
+              <h3 class="custom-input-text">Name</h3>
+              <input type="text" class="form-control custom-input" name="username" placeholder="" required="" autofocus="" />
+              <br>
+              <h3 class="custom-input-text">Email</h3>
+              <input type="text" class="form-control custom-input" name="username" placeholder="" required="" autofocus="" />
+              <br>
+              <h3 class="custom-input-text">Username</h3>
+              <input type="text" class="form-control custom-input" name="username" placeholder="" required="" autofocus="" />
+              <br>
+              <h3 class="custom-input-text" style="margin-top: 10px;">Password</h3>
+              <input type="password" class="form-control custom-input" name="password" placeholder="" required=""/>
+              <br>
+              <h3 class="custom-input-text" style="margin-top: 10px;">Re-type password</h3>
+              <input type="password" class="form-control custom-input" name="password" placeholder="" required=""/>
+              <br>
+              <button class="btn btn-lg btn-primary btn-block custom-input-signin" type="submit">CREATE ACCOUNT</button>
+            </form>
+          </div>
+          <div class="lamp-popup-div sign-wrapper">
+            <form class="form-signin">
+              <h2 class="form-signin-heading">Floor Lamp</h2>
+              <h3 class="custom-input-text">Price - 12.5</h3>
+              <br>
+              <h3 class="custom-input-text">This floor lamp has been used for 1 year and is in excellent condition. Out of warranty but works perfectly. Does not come with a light bulb.</h3>
+              <button class="btn btn-lg btn-primary btn-block custom-input-signin" type="submit">PLACE BID</button>
+            </form>
+          </div>
+
+          <div class="notebook-popup-div sign-wrapper">
+            <form class="form-signin">
+              <h2 class="form-signin-heading">Notebook</h2>
+              <h3 class="custom-input-text">Price - 20</h3>
+              <br>
+              <h3 class="custom-input-text">A set of 5 notebooks with minimal use (~10 pages) that can be re-used for any purpose. High quality paper with ~150 pages empty per notebook.</h3>
+              <button class="btn btn-lg btn-primary btn-block custom-input-signin" type="submit">PLACE BID</button>
+            </form>
+          </div>
+
+
+
+        <script src="data.js"></script>
+        </body>
+</html>

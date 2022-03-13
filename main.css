@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+a:focus {color: #fff;}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/******* Navigation Section ********/
+
+#top-nav {
+  display: flex;
+  height: 60px;
+  background-color: #5483ef;
+  color: #fff;
+  vertical-align: middle;
+  line-height: 25px;
+}
+
+.nav-logo {
+  flex: 1;
+  text-align: center;
+  line-height: 55px;
+  padding-left: 15px;
+  font-size: 16px;
+
+}
+
+.nav-options {flex: 8;}
+.nav-options ul li:first-child {margin-left: -5px; }
+.nav-options ul li{
+  margin: 0px 13px 0px 10px;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.nav-signin {flex: 2; min-width: 120px;}
+.nav-signin button{
+  flex: 1;
+  min-width: 73px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 8px 28px 0px 35px;
+  padding: 9px 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.nav-signup {flex: 2; min-width: 120px;}
+.nav-signup button{
+  flex: 1;
+  min-width: 73px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 8px 28px 0px 35px;
+  padding: 9px 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+
+/******* Search & Filter Section Right Under Nav ********/
+
+
+.search-filter-nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+
+.search-container {
+  flex: 1;
+  display: inherit;
+  max-width: 349px;
+  border-radius: 6px;
+  margin: 2px;
+
+}
+
+
+
+input#search-bar {
+  margin: 0 auto;
+  width: 271px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  outline: none;
+
+  -moz-border-radius-topleft: 6px;
+  -webkit-border-top-left-radius: 6px;
+  border-top-left-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+
+}
+input#search-bar:focus {
+  border: 1px solid #008ABF;
+  transition: 0.35s ease;
+  color: #008ABF;
+}
+
+.search-icon-div {
+  display: inline-block;
+  font-size: 19px;
+  padding: 9px 14px;
+  border: 1px solid #D0CFCE;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+
+/* <!-- ****** products Listing Left Side ******* --> */
+/* <!-- ****** Google Map Listing Right Side ******* --> */
+#main-platform {
+  display: flex;
+  flex-wrap: wrap;
+  height: 728px;
+  weight: 100%;
+}
+
+.leftside-products-container {
+  flex: 1;
+  background-color: #e8e9ea;
+
+}
+
+.sortforyou-container {
+  width: 100%;
+  height: 118px;
+  background-color: #fff;
+}
+/* <!-- ****** products Listing Left Side - Sections 1-4******* --> */
+.products-list-platform {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 4px 1px;
+}
+
+.product-custom {
+  flex: 1;
+  background-color: #fff;
+    max-height: 292px;
+    min-height: 292px;
+    min-width: 228px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.product-section-1 .img-div{
+  height: 178px;
+  background: url('https://res-2.cloudinary.com/m2-circa-lighting/image/upload/c_limit,dpr_1.0,f_auto,q_auto/v1/media/catalog/product/s/p/sp3022habnp_10.png') no-repeat center center;
+  background-size: contain;
+
+}
+
+.product-section-1 .price-div {
+    height: 33px;
+    padding: 0px 12px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 21px;
+    letter-spacing: 1px;
+
+}
+
+.product-section-1 .bdBaSqft-div {
+  min-height: 10px;
+  max-height: 11px;
+  padding: 10px 5px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.product-address {
+  vertical-align: top;
+  color: #a0a7ae;
+}
+
+
+.product-address .addy {
+  font-size: 17px;
+    padding: 0px 5px;
+    position: relative;
+    bottom: 22px;
+    left: 5px;
+}
+
+.product-section-2 .img-div{
+  height: 178px;
+  background: url('https://i5.walmartimages.com/asr/09ed5afe-c1fb-44a6-9e71-4140fa304e46.c212ee9a706dbae73f77424008f621cd.jpeg') no-repeat center center;
+  background-size: contain;
+
+}
+
+.product-section-2 .price-div {
+    height: 33px;
+    padding: 0px 12px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 21px;
+    letter-spacing: 1px;
+
+}
+
+.product-section-2 .bdBaSqft-div {
+  min-height: 10px;
+  max-height: 11px;
+  padding: 10px 5px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.product-address {
+  vertical-align: top;
+}
+
+
+.product-address .addy {
+  font-size: 17px;
+    padding: 0px 5px;
+    position: relative;
+    bottom: 22px;
+    left: 5px;
+}
+
+/* <!---------SIGN IN POP UP!----------------->
+<!-----------------------------------------> */
+.displayShow {
+  width: 100%;
+  height: 100%;
+  opacity: .95;
+  top: 0;
+  left: 0;
+  display: block;
+  position: fixed;
+  background: rgba(98,153,255,.7);
+  overflow: auto;
+}
+
+.sign-wrapper {
+  width: 100%;
+  height: 100%;
+  opacity: .55;
+  top: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  background: rgba(98,153,255,.7);
+  overflow: auto;
+}
+
+.custom-input {
+  width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: rgba(110,116,141,.2);
+}
+
+.input-submit-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SUBMIT */
+.form-input-submit {
+  min-width: 339px;
+  height: 35px;
+  margin: 48px 5px 8px 5px;
+  color: #fff;
+  border-color: rgb(92, 145, 250);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background: rgb(92, 145, 250);
+  cursor: pointer;
+}
+
+.custom-input-text {
+  color: #cbccd6;
+  font-size: 16px;
+	font-weight: 300;
+  font-weight:
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-signin-heading {
+    border-bottom: 3px solid #5c91fa;
+    padding-bottom: 3px;
+    margin-bottom: 69px;
+    font-size: 18px;
+    color: #fff;
+    width: 81px;
+    font-size: 23px;
+}
+
+.form-signin {
+  max-width: 353px;
+  border-radius: 6px;
+    min-height: 412px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #394063;
+    border: 1px solid rgba(0,0,0,0.1);
+    position: relative;
+    top: 10%;
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+    height: auto;
+    width: 100%;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+  }
+
+
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
+
+/* product SUBMIT */
+.custom-input-signin {
+  min-width: 362px;
+  height: 35px;
+  margin: 48px 5px 8px 5px;
+  color: #fff;
+  border-color: rgb(92, 145, 250);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background: rgb(92, 145, 250);
+}
+
+.custom-input-text {
+  color: #cbccd6;
+  font-size: 16px;
+	font-weight: 300;
+  font-weight:
+  font-family: 'Open Sans', sans-serif;
+}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+    height: auto;
+    width: 100%;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+  }
+
+
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
